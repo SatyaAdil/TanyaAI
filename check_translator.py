@@ -6,3 +6,5 @@ output_texts = ["Artificial Intelligence (AI) is a rapidly evolving transformati
 P, R, F1 = score(output_texts, input_texts, lang="en", model_type="bert-base-multilingual-cased", rescale_with_baseline=True)
 
 print(f"BERTScore F1: {F1.item():.2f}")
+
+# update
